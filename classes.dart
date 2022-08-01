@@ -74,7 +74,7 @@ void main() {
       'my personal data is\nname: ${myPersonalData['name']}\nage: ${myPersonalData['age']}');
   print('Address is:\nstreet: ${myPersonalData['address']}\n\n');
 
-// Object using classes and standard constructors
+  // Object using classes and standard constructors
   var penny = Person(
       'penny', 24, PersonAddress(street: 'Penny Bound Street', number: 109));
   print('Object with classes and constructors');
@@ -83,7 +83,7 @@ void main() {
       'Penny data is:\nname: ${penny.name}\nage: ${penny.age}\naddress: ${penny.address?.street}, number: ${penny.address?.number}');
   print('\n');
 
-// Object using classes and named constructors
+  // Object using classes and named constructors
   var jennifer = PersonNamed(
       name: 'Jennifer',
       age: 24,
